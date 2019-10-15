@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "0");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "1");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "2");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "3");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "4");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "5");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "6");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "7");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "8");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), "9");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String displayValue = getString(R.string.displayValue, mathTxtVw.getText(), ".");
-                displayNewNumber(displayValue);
+                mathTxtVw.setText(displayValue);
             }
         });
 
@@ -236,10 +236,5 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-    }
-
-    public void displayNewNumber(String numberToShow){
-        mathTxtVw.setText(numberToShow);
     }
 }

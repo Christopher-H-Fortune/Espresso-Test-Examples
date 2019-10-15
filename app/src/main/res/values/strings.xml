@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Unit Testing Practice</string>
-    <string name="displayValue">%1$s %2$s</string>
+    <string name="displayValue">%1$s%2$s</string>
     <string name="totalValue">%1$f</string>
 </resources>
